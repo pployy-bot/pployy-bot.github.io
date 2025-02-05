@@ -1,9 +1,7 @@
-/* Dark navbar background color */
 .bg-dark {
     background-color: #010101 !important;
 }
 
-/* Navbar links style */
 .navbar-dark .navbar-nav .nav-link {
     font-size: 24px;
     padding-left: 15px;
@@ -11,41 +9,36 @@
     color: rgba(255, 255, 255, 1);
 }
 
-/* Navbar brand (logo) style */
 .navbar-dark .navbar-brand {
     font-size: 30px;
     font-weight: bold;
 }
 
-/* Header section background */
-section.header {
+section.header{
     background: url('../assets/images/bg_header.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-/* Container within header section */
-section.header .header-content .container {
+section.header .header-content .container{
     height: 90vh;
 }
 
-/* Content inside the header */
-.head-content {
+.head-content{
     width: 600px;
     color: #fff;
 }
 
-/* Heading in the header */
-.head-content h1 {
+.head-content h1{
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-/* Button in the header section */
-.head-content button {
+.head-content button{
     background-color: #EC5B1B;
+
     padding: 10px 24px;
     font-size: 24px;
     font-weight: bold;
@@ -54,14 +47,12 @@ section.header .header-content .container {
     margin-top: 20px;
 }
 
-/* Customizable text in the header */
-.customizable {
+.customizable{
     margin-top: 80px;
     color: #EC5B1B;
 }
 
-/* MadeOrder section with a background image */
-.madeorder {
+.madeorder{
     height: 650px;
     background: url('../assets/images/MadeWithFish.jpg');
     background-size: cover;
@@ -71,38 +62,16 @@ section.header .header-content .container {
     color: #fff;
 }
 
-/* Heading inside MadeOrder */
-.madeorder h1 {
+.madeorder h1{
     width: 500px;
 }
 
-/* Button "Order now" styling */
-.btn-order {
-    border-radius: 30px;
-    border: 3px solid #F5F5F5;
-    background: #E75201;
-    padding: 10px 24px; /* Ensure padding for button */
-    font-size: 18px; /* Adjust font size for better visual balance */
-    font-weight: bold;
-    color: #fff;
-    transition: background-color 0.3s ease; /* Add smooth hover effect */
-}
+.btn-order 
+    {
+        border-radius: 30px;
+        border: 3px solid #F5F5F5;
+        background: #E75201;
+    }
 
-/* "Order now" button hover effect */
-.btn-order:hover {
-    background-color: #EC5B1B; /* Slightly darker shade on hover */
-}
 
-/* Navbar item for aligning Order now button to the right */
-.navbar-nav {
-    display: flex;
-    align-items: center; /* Vertically align items */
-}
 
-.navbar-nav .nav-item {
-    margin-right: 20px; /* Space between nav items */
-}
-
-.navbar-nav .btn-order {
-    margin-left: 15px; /* Add space between button and other nav items */
-}
